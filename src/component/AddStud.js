@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React, { useState } from 'react'
 import Header from './Header'
 
@@ -13,6 +14,8 @@ const AddStud = () => {
     const newstud=()=>{
         const data={"admission":admission,"rollno":rollno,"name":name,"class":std,"parent":parent,"mob":mob,"address":address}
         console.log(data)
+
+    
     }
 
   return (
